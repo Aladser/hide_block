@@ -1,4 +1,4 @@
-``
+```
 // системное сообщение об ошибке
 let systemMessageContainer = document.querySelector('#system-message-container');
 
@@ -6,4 +6,4 @@ let systemMessageContainer = document.querySelector('#system-message-container')
 if (systemMessageContainer) {
     hideSlowlyDOMBlock(systemMessageContainer, 3);
 }
-``
+```
