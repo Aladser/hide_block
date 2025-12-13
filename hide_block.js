@@ -3,7 +3,7 @@
  * @param {*} element DOM блок
  * @param {*} period время в секундах
  */
-function hideSlowlyDOMBlock(element, period = 5) {
+function hide_slowly_dom(element, period = 5) {
     if (element instanceof Element) {
         period = parseInt(period);
         let opacity = period /100;
