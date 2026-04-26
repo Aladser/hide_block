@@ -1,9 +1,9 @@
 ```
 // системное сообщение об ошибке
-let systemMessageContainer = document.querySelector('#system-message-container');
+let system_msg_container = document.querySelector('#system-message-container');
 
 // скрыть системные сообщения в течение 3 секунд
-if (systemMessageContainer) {
-    hideSlowlyDOMBlock(systemMessageContainer, 3);
+if (system_msg_container) {
+    hideSlowlyDOMBlock(system_msg_container, 3);
 }
 ```
