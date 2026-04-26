@@ -13,7 +13,6 @@ function hide_slowly_dom(element, period = 5) {
                 element.remove();
             } else {
                 element.style.opacity = opacity;
-                element.style.filter = 'alpha(opacity=' + opacity * 100 + ')'; // Для старых IE
                 opacity -= opacity * 0.1;
             }
         }, 100);
